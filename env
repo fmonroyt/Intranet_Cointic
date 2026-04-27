@@ -1,0 +1,20 @@
+CI_ENVIRONMENT = production
+app.baseURL = 'http://localhost:8080/'
+
+# Database
+
+database.default.hostname = localhost
+database.default.database = intranet_cointic
+database.default.username = root
+database.default.password =
+database.default.DBDriver = MySQLi
+
+# Email
+email.protocol = smtp
+email.SMTPHost = smtp.example.com
+email.SMTPUser = usuario@example.com
+email.SMTPPass = password
+email.SMTPPort = 587
+email.SMTPCrypto = tls
+email.fromEmail = no-reply@cointic.local
+email.fromName = "Intranet Cointic"
